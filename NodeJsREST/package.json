@@ -1,0 +1,21 @@
+{
+  "name": "nodejsrest",
+  "version": "1.0.0",
+  "description": "Basic functions on Node JS REST API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "Naveen S",
+  "license": "ISC",
+  "devDependencies": {
+    "nodeman": "^1.1.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}
