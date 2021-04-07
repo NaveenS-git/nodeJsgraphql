@@ -1,0 +1,40 @@
+{
+  "name": "apolloserver",
+  "version": "1.0.0",
+  "description": "Apollo Server with graphQl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaveenS-git/nodeJsgraphql.git"
+  },
+  "keywords": [
+    "Apollo",
+    "Server",
+    "with",
+    "graphQl"
+  ],
+  "author": "Naveen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NaveenS-git/nodeJsgraphql/issues"
+  },
+  "homepage": "https://github.com/NaveenS-git/nodeJsgraphql#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "concurrently": "^6.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
